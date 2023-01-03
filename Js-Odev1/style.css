@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0ebce;
+  color: #4e6c50;
+}
+
+.container {
+  box-shadow: 0 0 5px gray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 50%;
+  height: 400px;
+  margin: 150px auto auto auto;
+}
